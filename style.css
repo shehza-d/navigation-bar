@@ -5,9 +5,9 @@
     list-style: none;
     box-sizing: border-box;
 }
-body {background-color: rgba(250, 236, 48, 0.986);}
+body {background-color: #051367;}
 nav {
-    background: red;
+    background:   #2D31FA  ;
     height: 80px;
     width: 100%;
 }
@@ -16,6 +16,7 @@ lable.logo {
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    color: #DFF6FF;
 }
 nav ul {
     float: right;
@@ -27,18 +28,18 @@ nav ul li {
     margin: 0 5px;    
 }
 nav ul li a {
-    color: black;
+    color: #DFF6FF;
     font-size: 17px;
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 4px;
 }
 a.active,a:hover {
-    background: rgb(63, 63, 245);
+    background:   #5D8BF4;
     transition: .5s;
 
 }
 
 
 
-h1{color: rgb(250, 250, 252);}
+h1{color: #DFF6FF;}
