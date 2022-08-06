@@ -5,12 +5,17 @@
     list-style: none;
     box-sizing: border-box;
 }
-body {background-color: #051367;}
+
+body {
+    background-color: #051367;
+}
+
 nav {
-    background:   #2D31FA  ;
+    background: #2D31FA;
     height: 80px;
     width: 100%;
 }
+
 lable.logo {
     font-size: 45px;
     line-height: 80px;
@@ -18,15 +23,18 @@ lable.logo {
     font-weight: bold;
     color: #DFF6FF;
 }
+
 nav ul {
     float: right;
     margin-right: 20px;
 }
+
 nav ul li {
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;    
+    margin: 0 5px;
 }
+
 nav ul li a {
     color: #DFF6FF;
     font-size: 17px;
@@ -34,12 +42,65 @@ nav ul li a {
     padding: 7px 13px;
     border-radius: 4px;
 }
-a.active,a:hover {
-    background:   #5D8BF4;
+
+a.active,
+a:hover {
+    background: #5D8BF4;
     transition: .5s;
 
 }
 
 
+main{
+    height: 80vh;
+}
 
-h1{color: #DFF6FF;}
+h1 {
+    color: #DFF6FF;
+}
+
+
+/* footer */
+.iconscontainer {
+    list-style: none;
+    display: flex;
+    fill: #ffffff;
+    margin: 15px;
+    /* width: 20px; */
+}
+
+.icon {
+    padding-right: 13px;
+    fill: white;
+    width: 38px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    fill: #fffc3a;
+}
+
+footer {
+
+    /* position: sticky; */
+    /* position: absolute; */
+    /* display: hidden; */
+    display: flex;
+    justify-content: center;
+    /* bottom: 0; */
+    width: 100%;
+    height: 25px;
+    background: #2D31FA;
+    padding: 18px 0px;
+    align-items: center;
+}
+
+
+footer>p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    /* padding-top: 15px; */
+    /* padding-bottom: 15px; */
+    font-size: 20px;
+}
